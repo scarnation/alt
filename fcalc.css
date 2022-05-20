@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 30%;
+    background-color: aqua;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#display {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+  padding: 5px;
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.each-row {
+    display: flex;
+    justify-content: space-between;
+}
